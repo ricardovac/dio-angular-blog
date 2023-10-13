@@ -1,7 +1,7 @@
 <div class="container__big-card">
   <div class="big-card__photo">
     <img
-      src="https://picsum.photos/400/500"
+      src="{{ photoCover }}"
       alt="big-card photo"
       height="200px"
       width="300px"
@@ -10,19 +10,13 @@
 
   <div class="big-card__title">
     <h1>
-      <a href="#"> Saiu a nova versão do angular </a>
+      <a href="#">{{ cardTitle }}</a>
     </h1>
   </div>
 
   <div class="big-card__description">
     <p>
-      <a href="#">
-        Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
-        enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
-        exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit
-        nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor
-        minim nulla est proident. Nostrud officia pariatur ut officia.
-      </a>
+      <a href="#"> {{ cardDescription }} </a>
     </p>
   </div>
 </div>
